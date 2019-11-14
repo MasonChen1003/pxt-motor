@@ -241,7 +241,7 @@ namespace motor {
         if (!initialized) {
             initPCA9685()
         }
-        // Change 100hz to 50Hz 20000us 
+        // Change 100hz to 50Hz 20000us  
         let v_us = (degree * 10 + 600) // 0.6ms ~ 2.4ms
         let value = v_us * 4095 / 20000
         setPwm(index + 7, 0, value)
