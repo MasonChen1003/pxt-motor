@@ -21,6 +21,7 @@ The expansion board USES 3.5v ~ 5.5v power supply, 3.5mm plug and wiring two pow
 ## Blocks
 ### 1.Servo
 ![image](https://github.com/DFRobot/pxt-motor/blob/master/image/1.png)
+Modify PWM frequency from 100Hz to 50Hz 
 
 ### 2.DC Motor
 ![image](https://github.com/DFRobot/pxt-motor/blob/master/image/7.png)
